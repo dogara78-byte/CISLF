@@ -3,7 +3,7 @@ title: Our Units
 permalink: /our-units/
 ---
 
-<div class="wrap page-title">
+<div class="wrap page-title centered">
   <h1>Our Units</h1>
   <p class="lede">Four Scouting units, sponsored by American Legion Post 331, serving youth across Central Indiana.</p>
 </div>
