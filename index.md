@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <div class="wrap page-title">
-  <h1>Support Tomorrow's Leaders Today</h1>
+  <h1>Central Indiana Scouting Legacy Foundation</h1>
   <p class="lede">
     The Central Indiana Scouting Legacy Foundation is a nonprofit organization
     established to ensure the financial stability and growth of Scouting
@@ -18,7 +18,7 @@ permalink: /
 <div class="wrap">
   <div class="story-block">
     <div class="story-photo">
-      <img class="photo" src="{{ '/assets/images/home-hero.jpg' | relative_url }}" alt="CISLF Scouts presenting the colors at a community ceremony">
+      <img class="photo" src="{{ '/assets/images/home-purpose.jpg' | relative_url }}" alt="A path through the woods at sunrise">
     </div>
     <div class="story-text">
       <h2>Purpose</h2>

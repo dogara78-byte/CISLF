@@ -106,16 +106,17 @@ a:focus-visible, button:focus-visible {
   border-bottom-color: var(--green);
 }
 
-.nav-donate {
+.site-nav a.nav-donate {
   background: var(--green);
   color: #fff !important;
   padding: 0.5rem 1.1rem;
   border-radius: 6px;
-  border-bottom: none !important;
+  border-bottom: none;
+  line-height: 1.2;
   transition: background var(--ease), transform var(--ease);
 }
 
-.nav-donate:hover { background: var(--green-dark); transform: translateY(-1px); }
+.site-nav a.nav-donate:hover { background: var(--green-dark); transform: translateY(-1px); }
 
 @media (max-width: 720px) {
   .nav-toggle { display: inline-block; }
@@ -224,11 +225,11 @@ h2 {
 .btn:hover { background: var(--green-dark); color: #fff; transform: translateY(-1px); }
 
 .btn-img { display: inline-block; transition: transform var(--ease); }
-.btn-img img { display: block; height: 56px; width: auto; }
+.btn-img img { display: block; height: 68px; width: auto; }
 .btn-img:hover { transform: translateY(-1px); }
 
 .join-badge { display: inline-block; margin-top: 0.75rem; transition: transform var(--ease); }
-.join-badge img { display: block; height: 40px; width: auto; }
+.join-badge img { display: block; height: 52px; width: auto; }
 .join-badge:hover { transform: translateY(-1px); }
 
 /* Units */
