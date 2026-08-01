@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="wrap nav-wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-name">Central Indiana Scouting<br>Legacy Foundation</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" id="nav-toggle">
+      <span class="sr-only">Menu</span>
+      <span aria-hidden="true">&#9776;</span>
+    </button>
+    <nav id="site-nav" class="site-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/our-units/' | relative_url }}">Our Units</a>
+      <a href="{{ '/contact-us/' | relative_url }}">Contact Us</a>
+      <a href="{{ '/donate/' | relative_url }}" class="nav-donate">Donate</a>
+    </nav>
+  </div>
+</header>
+<script>
+  document.getElementById('nav-toggle').addEventListener('click', function () {
+    var nav = document.getElementById('site-nav');
+    var expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', String(!expanded));
+    nav.classList.toggle('open');
+  });
+</script>

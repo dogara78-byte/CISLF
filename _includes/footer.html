@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="wrap footer-wrap">
+    <p class="footer-org">{{ site.org_name }}</p>
+    <p>{{ site.org_address }}</p>
+    <p>EIN: {{ site.org_ein }} &mdash; a 501(c)(3) tax-exempt organization</p>
+    <p class="footer-links">
+      <a href="{{ '/' | relative_url }}">Home</a> ·
+      <a href="{{ '/our-units/' | relative_url }}">Our Units</a> ·
+      <a href="{{ '/contact-us/' | relative_url }}">Contact Us</a> ·
+      <a href="{{ site.donate_url }}">Donate</a>
+    </p>
+    <p class="footer-copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.org_name }}</p>
+  </div>
+</footer>

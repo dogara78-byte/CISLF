@@ -1,0 +1,30 @@
+title: Central Indiana Scouting Legacy Foundation
+description: >-
+  CISLF is a 501(c)(3) nonprofit providing long-term funding to sustain the
+  Scouting programs sponsored by American Legion Post 331 in Brownsburg, Indiana.
+url: "https://cislf.org"
+baseurl: ""
+
+# Org details (referenced across pages/includes)
+org_name: "Central Indiana Scouting Legacy Foundation, Inc."
+org_address: "636 E. Main Street, Brownsburg, IN 46112"
+org_ein: "39-4301177"
+donate_url: "https://www.zeffy.com/en-US/donation-form/donate-to-support-our-future-leaders-of-tomorrow"
+contact_form_url: "https://docs.google.com/forms/d/e/1FAIpQLSey0n43-lSQtgRiKayPXf7ZWrvVgAx-OG74TzebvTc8_Ipw9A/viewform"
+contact_form_embed_url: "https://docs.google.com/forms/d/e/1FAIpQLSey0n43-lSQtgRiKayPXf7ZWrvVgAx-OG74TzebvTc8_Ipw9A/viewform?embedded=true"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
