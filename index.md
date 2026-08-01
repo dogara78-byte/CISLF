@@ -3,7 +3,7 @@ title: Home
 permalink: /
 ---
 
-<div class="wrap page-title">
+<div class="wrap page-title centered">
   <h1 class="hero-mark">
     <img src="{{ '/assets/images/compass-badge.webp' | relative_url }}" alt="Central Indiana Scouting Legacy Foundation">
   </h1>

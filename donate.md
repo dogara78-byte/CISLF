@@ -3,7 +3,7 @@ title: Donate
 permalink: /donate/
 ---
 
-<div class="wrap page-title">
+<div class="wrap page-title centered">
   <h1>Support Tomorrow's Leaders Today</h1>
   <p class="lede">
     Central Indiana Scouting Legacy Foundation (CISLF) provides long-term

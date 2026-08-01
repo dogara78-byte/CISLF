@@ -158,6 +158,12 @@ section {
 .hero-mark { margin: 0 0 1rem; }
 .hero-mark img { height: 120px; width: auto; display: block; }
 
+.page-title.centered { text-align: center; }
+.page-title.centered .hero-mark img,
+.page-title.centered .lede,
+.page-title.centered .btn-img { margin-left: auto; margin-right: auto; }
+.page-title.centered .btn-img { margin-top: 0.5rem; }
+
 .page-title p {
   font-size: 1.1rem;
   color: var(--ink-light);
@@ -243,19 +249,37 @@ h2 {
 
 .unit-block:last-child { border-bottom: none; }
 
-.unit-photos {
-  margin-bottom: 1.25rem;
+.unit-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-.unit-photos .photo {
-  width: 140px;
+.unit-photo { flex: 0 0 auto; }
+
+.unit-photo .photo {
+  width: 150px;
   border-radius: 0;
 }
 
-.unit-block h3 {
-  color: var(--green);
-  margin: 0 0 0.5rem;
-  font-size: 1.3rem;
+.unit-text {
+  flex: 1 1 280px;
+  text-align: center;
+}
+
+.unit-text p { margin: 0 0 0.5rem; }
+.unit-text p:last-child { margin-bottom: 0; }
+
+.unit-cta {
+  flex: 0 0 auto;
+  margin: 0 auto;
+}
+
+.unit-cta .join-badge { margin-top: 0; }
+
+@media (max-width: 720px) {
+  .unit-row { flex-direction: column; text-align: center; }
 }
 
 /* Donation tiers */
