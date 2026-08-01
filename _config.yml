@@ -4,6 +4,7 @@ description: >-
   Scouting programs sponsored by American Legion Post 331 in Brownsburg, Indiana.
 url: "https://cislf.org"
 baseurl: ""
+image: /assets/images/home-hero.jpg
 
 # Org details (referenced across pages/includes)
 org_name: "Central Indiana Scouting Legacy Foundation, Inc."

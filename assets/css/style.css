@@ -58,14 +58,15 @@ a:focus-visible, button:focus-visible {
 }
 
 .brand {
-  color: var(--green);
-  text-decoration: none;
-  font-weight: 900;
-  font-size: 1.1rem;
-  line-height: 1.3;
+  display: inline-flex;
+  align-items: center;
 }
 
-.brand:hover { color: var(--green-dark); }
+.brand-logo {
+  height: 48px;
+  width: auto;
+  display: block;
+}
 
 .nav-toggle {
   display: none;
@@ -226,6 +227,12 @@ h2 {
 
 .btn:hover { background: var(--green-dark); color: #fff; }
 
+.btn-img { display: inline-block; }
+.btn-img img { display: block; height: 56px; width: auto; }
+
+.join-badge { display: inline-block; margin-top: 0.75rem; }
+.join-badge img { display: block; height: 40px; width: auto; }
+
 /* Units */
 .unit-block {
   padding: 2.5rem 0;
@@ -235,10 +242,12 @@ h2 {
 .unit-block:last-child { border-bottom: none; }
 
 .unit-photos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
   margin-bottom: 1.25rem;
+}
+
+.unit-photos .photo {
+  width: 140px;
+  border-radius: 0;
 }
 
 .unit-block h3 {

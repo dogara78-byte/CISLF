@@ -71,8 +71,16 @@ issues a free TLS certificate automatically once DNS is verified.
 - Retire the Google Site (Settings → General → Delete site) once you've
   confirmed `cislf.org` is serving the new site correctly — no need to keep
   paying attention to two copies.
-- Add a real `assets/images/favicon.png` (32×32 or 64×64) — the layout already
-  references it; nothing is there yet since I didn't have your logo file.
 - Content, donate link (Zeffy), and the contact form (embedded Google Form)
   were carried over as-is from the current site — see `_config.yml` for the
   URLs if either ever changes.
+
+## Images
+
+Real logo, badge, and photo assets live in `assets/images/` (web-optimized:
+resized and converted to WebP/compressed JPEG from the originals). The
+full-resolution originals are kept locally in `assets/images/incoming/` as an
+archive but are gitignored — not pushed to GitHub, since a static site has no
+use for multi-megabyte source files. If you add new photos later, drop
+originals in `incoming/` and resize/compress before adding them to
+`assets/images/` proper (keeps the site fast to load).

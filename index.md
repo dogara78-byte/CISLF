@@ -18,10 +18,7 @@ permalink: /
 <div class="wrap">
   <div class="story-block">
     <div class="story-photo">
-      <div class="photo-placeholder">
-        <span class="icon">&#128247;</span>
-        Photo: home hero banner
-      </div>
+      <img class="photo" src="{{ '/assets/images/home-hero.jpg' | relative_url }}" alt="CISLF Scouts presenting the colors at a community ceremony">
     </div>
     <div class="story-text">
       <h2>Purpose</h2>
@@ -35,10 +32,7 @@ permalink: /
   <div class="wrap">
     <div class="story-block reverse">
       <div class="story-photo">
-        <div class="photo-placeholder">
-          <span class="icon">&#128247;</span>
-          Photo: Scouts in action
-        </div>
+        <img class="photo" src="{{ '/assets/images/home-pillars.jpg' | relative_url }}" alt="Signpost illustrating CISLF's four pillars: Impact, Community, Legacy, and Stewardship">
       </div>
       <div class="story-text">
         <h2>What we are about</h2>
@@ -68,10 +62,7 @@ permalink: /
 <div class="wrap">
   <div class="story-block">
     <div class="story-photo">
-      <div class="photo-placeholder">
-        <span class="icon">&#128247;</span>
-        Photo: Scouting event
-      </div>
+      <img class="photo" src="{{ '/assets/images/home-cta.jpg' | relative_url }}" alt="CISLF Scouts presenting the colors at a community ceremony">
     </div>
     <div class="story-text">
       <p class="lede">
@@ -79,7 +70,9 @@ permalink: /
         empowers youth through mentoring, leadership training, and community
         engagement.
       </p>
-      <a class="btn" href="{{ site.donate_url }}">Get Involved | Donate Now!</a>
+      <a class="btn-img" href="{{ site.donate_url }}">
+        <img src="{{ '/assets/images/donate-button.webp' | relative_url }}" alt="Get Involved | Donate Now!">
+      </a>
     </div>
   </div>
 </div>
