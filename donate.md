@@ -46,7 +46,7 @@ permalink: /donate/
   </div>
 </div>
 
-<section class="tan">
+<section>
   <div class="wrap">
     <h2>What Your Gift Provides</h2>
     <div class="tiers">

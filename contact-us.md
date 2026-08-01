@@ -19,7 +19,7 @@ permalink: /contact-us/
   </p>
 </div>
 
-<section class="tan">
+<section>
   <div class="wrap">
     <h2>Mailing Address</h2>
     <p>

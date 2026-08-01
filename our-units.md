@@ -52,7 +52,7 @@ permalink: /our-units/
 
 </div>
 
-<section class="tan">
+<section>
   <div class="wrap">
     <p class="lede" style="margin:0;">
       Your gift to CISLF provides long-term, stable funding for all four units.

@@ -28,7 +28,7 @@ permalink: /
   </div>
 </div>
 
-<section class="tan">
+<section>
   <div class="wrap">
     <div class="story-block reverse">
       <div class="story-photo">
