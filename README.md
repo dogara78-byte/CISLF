@@ -26,22 +26,20 @@ bundle exec jekyll serve
 
 ## One-time setup: publish to GitHub Pages
 
-1. **Create the repo.** On github.com, create a new **public** repository
-   (Pages is free on public repos on any plan; private repos need GitHub Pro/paid
-   org). Name it whatever you like, e.g. `cislf-website` — it does not need to
-   match the domain.
-2. **Push this code:**
+This repo is [dogara78-byte/CISLF](https://github.com/dogara78-byte/CISLF) —
+**public**, so Pages is free (private repos need GitHub Pro/paid org).
+
+1. **Push this code** (already done — repo is public, `main` is the default branch):
    ```bash
    cd ~/cislf-website
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
    git push -u origin main
    ```
-3. **Enable Pages.** Repo → Settings → Pages → Build and deployment → Source:
+2. **Enable Pages.** Repo → Settings → Pages → Build and deployment → Source:
    "Deploy from a branch" → Branch: `main`, folder `/ (root)` → Save.
    (GitHub auto-detects Jekyll and builds it for you — no Actions workflow needed.)
-4. **Point the custom domain at GitHub.** Still on Settings → Pages, enter
-   `cislf.org` under "Custom domain" and save (this writes the `CNAME` file
-   for you too, but it's already committed here).
+3. **Confirm the custom domain.** Still on Settings → Pages, `cislf.org` should
+   already show under "Custom domain" (the repo already had a `CNAME` file with
+   that value before this code was pushed).
 
 ## DNS changes (at your domain registrar, not GitHub)
 
