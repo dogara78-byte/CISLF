@@ -3,50 +3,83 @@ title: Home
 permalink: /
 ---
 
-<section class="hero">
-  <div class="wrap">
-    <h1>Support Tomorrow's Leaders Today</h1>
-    <p>
-      The Central Indiana Scouting Legacy Foundation is a nonprofit organization
-      established to ensure the financial stability and growth of Scouting
-      programs sponsored by American Legion Post 331. We empower youth through
-      leadership, mentorship, and outdoor adventure.
-    </p>
-    <a class="btn" href="{{ site.donate_url }}">Get Involved &mdash; Donate Now!</a>
-  </div>
-</section>
+<div class="wrap page-title">
+  <h1>Support Tomorrow's Leaders Today</h1>
+  <p class="lede">
+    The Central Indiana Scouting Legacy Foundation is a nonprofit organization
+    established to ensure the financial stability and growth of Scouting
+    programs sponsored by American Legion Post 331. Through dedicated donor
+    support and community partnerships, CISLF nurtures future leaders,
+    promotes civic duty, and preserves the timeless values of Scouting for
+    generations to come.
+  </p>
+</div>
 
-<section>
+<div class="wrap">
+  <div class="story-block">
+    <div class="story-photo">
+      <div class="photo-placeholder">
+        <span class="icon">&#128247;</span>
+        Photo: home hero banner
+      </div>
+    </div>
+    <div class="story-text">
+      <h2>Purpose</h2>
+      <p>The Central Indiana Scouting Legacy Foundation empowers youth through leadership and mentorship.</p>
+      <p>By sustaining the Scouting programs sponsored by American Legion Post 331, we ensure that tomorrow&rsquo;s leaders have the resources, support, and guidance they need today.</p>
+    </div>
+  </div>
+</div>
+
+<section class="tan">
   <div class="wrap">
-    <h2>Why Your Gift Matters</h2>
-    <div class="pillars">
-      <div class="pillar">
-        <h3>Impact</h3>
-        <p>We serve hundreds of youth annually across four Scouting units in Central Indiana.</p>
+    <div class="story-block reverse">
+      <div class="story-photo">
+        <div class="photo-placeholder">
+          <span class="icon">&#128247;</span>
+          Photo: Scouts in action
+        </div>
       </div>
-      <div class="pillar">
-        <h3>Community</h3>
-        <p>We unite families, volunteers, and alumni around a shared commitment to youth development.</p>
-      </div>
-      <div class="pillar">
-        <h3>Legacy</h3>
-        <p>We're stewarding a century-old Scouting tradition in Brownsburg for the next generation.</p>
-      </div>
-      <div class="pillar">
-        <h3>Stewardship</h3>
-        <p>As a 501(c)(3) organization, we're committed to transparency and responsible use of every gift.</p>
+      <div class="story-text">
+        <h2>What we are about</h2>
+        <div class="pillars">
+          <div class="pillar">
+            <h3>Impact</h3>
+            <p>CISLF sustains four Scouting units, serving hundreds of young people annually.</p>
+          </div>
+          <div class="pillar">
+            <h3>Community</h3>
+            <p>We unite families, volunteers, and donors around shared values of service and integrity.</p>
+          </div>
+          <div class="pillar">
+            <h3>Legacy</h3>
+            <p>Every contribution strengthens a century-old tradition of leadership and civic engagement.</p>
+          </div>
+          <div class="pillar">
+            <h3>Stewardship</h3>
+            <p>As a registered 501(c)(3), CISLF ensures transparency and responsible financial management.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="alt">
-  <div class="wrap">
-    <h2>Our Units</h2>
-    <p>
-      CISLF supports four Scouting units sponsored by American Legion Post 331 &mdash;
-      Cub Scouts Pack 303, Troop 303, Troop 331, and Crew 303. Learn more about each
-      on the <a href="{{ '/our-units/' | relative_url }}">Our Units</a> page.
-    </p>
+<div class="wrap">
+  <div class="story-block">
+    <div class="story-photo">
+      <div class="photo-placeholder">
+        <span class="icon">&#128247;</span>
+        Photo: Scouting event
+      </div>
+    </div>
+    <div class="story-text">
+      <p class="lede">
+        Join us in shaping the future leaders of tomorrow. Your support
+        empowers youth through mentoring, leadership training, and community
+        engagement.
+      </p>
+      <a class="btn" href="{{ site.donate_url }}">Get Involved | Donate Now!</a>
+    </div>
   </div>
-</section>
+</div>
